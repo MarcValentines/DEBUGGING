@@ -16,7 +16,7 @@ public class ArrayDebugging {
 
         // Paso 2: Intentar modificar el array
         try {
-            System.out.println("\nAccediendo al elemento en el índice 5: " + numbers[5]);
+            System.out.println("\nAccediendo al elemento en el índice 5: " + numbers[4]);
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("\nError: " + e.toString());
         }
