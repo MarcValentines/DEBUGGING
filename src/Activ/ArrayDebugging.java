@@ -23,7 +23,7 @@ public class ArrayDebugging {
 
         try {
             int sum = 0;
-            for (int i = 0; i <= numbers.length; i++) {  
+            for (int i = 0; i < numbers.length; i++) {  
                 sum += numbers[i];
             }
             System.out.println("\nLa suma de los elementos es: " + sum);
